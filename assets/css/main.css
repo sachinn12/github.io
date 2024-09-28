@@ -3923,10 +3923,3 @@ input, select, textarea {
 .recommendation-author {
     overflow: auto; /* Clear floats within the container */
 }
-.recommendation-item::after {
-    content: "";
-    display: block;
-    height: 2px;
-    background-color: #ddd;
-    margin-top: 20px; /* Space between the last content and the underline */
-}
